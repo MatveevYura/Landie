@@ -15,7 +15,31 @@
 }
 
 //</FORM>====================================================================================================
+.content-column {
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px/36px * 100%;
+    color: $mainTitle;
+    margin-bottom: 16px;
+    @media (max-width: $md2+px) {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
 
+  &__text {
+    font-size: 16px;
+    line-height: 26px/16px * 100%;
+    margin-bottom: 40px;
+    @media (max-width: $md2+px) {
+      margin-bottom: 40px;
+    }
+    @media (max-width: $md4+px) {
+      margin-bottom: 20px;
+    }
+  }
+}
 //<BUTTONS (a.btn+tab)>====================================================================================================
 .sub-button {
   color: #091133;
