@@ -1,3 +1,3 @@
 # Landie
 
-https://qvatraweb.github.io/Landie/Landie/index.html
+https://matveevyura.github.io/Landie/Landie/index.html
